@@ -52,6 +52,7 @@ body {
 }
 
 .main-content {
+  padding: 20px;
   background-color: lightgrey;
   grid-area: main;
   display: grid;
@@ -63,14 +64,32 @@ body {
   gap: 20px;
 }
 
-.projects {
+.subsection {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 10px;
+}
+
+#projects {
   grid-area: projects;
 }
 
-.announcements {
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 16px;
+}
+
+.card {
+  height: 100%;
+}
+
+#announcements {
   grid-area: announcements;
 }
 
-.trending {
+#trending {
   grid-area: trending;
 }
