@@ -54,4 +54,23 @@ body {
 .main-content {
   background-color: lightgrey;
   grid-area: main;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "projects announcements"
+  "projects trending";
+  gap: 20px;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
 }
