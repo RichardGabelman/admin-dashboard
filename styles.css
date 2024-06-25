@@ -83,7 +83,13 @@ body {
 }
 
 .card {
-  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  border-left: 8px solid #592e83;
+  padding: 25px 20px;
+  display: grid;
+  grid-template-rows: max-content;
+  box-shadow: 3px 3px 4px 1px rgba(120, 120, 120, 0.2);
 }
 
 #announcements {
