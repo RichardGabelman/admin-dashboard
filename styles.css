@@ -11,7 +11,7 @@ body {
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
   grid-template-areas: 
     "sidebar header"
@@ -117,4 +117,13 @@ body {
 
 #trending {
   grid-area: trending;
+}
+
+.trending-people {
+  display: grid;
+  gap: 22px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 20px;
+  box-shadow: 3px 3px 4px 1px rgba(120, 120, 120, 0.2);
 }
