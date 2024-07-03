@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 body {
@@ -95,9 +98,9 @@ body {
   background-color: white;
   border-radius: 12px;
   border-left: 12px solid #592e83;
-  padding: 30px 25px;
-  padding-bottom: 20px;
+  padding: 20px 18px;
   display: grid;
+  gap: 5px;
   grid-template-rows: max-content;
   box-shadow: 3px 3px 4px 1px rgba(120, 120, 120, 0.2);
 }
@@ -134,6 +137,14 @@ body {
 
 .message {
   border-bottom: 2px solid rgba(120, 120, 120, 0.2);
+}
+
+.message h3 {
+  font-size: 1.1em;
+}
+
+.message p {
+  font-size: 0.9em;
 }
 
 .message:last-child {
@@ -178,7 +189,7 @@ body {
   align-self: center;
   align-items: center;
   font-size: 1.4em;
-  font-weight: 1000;
+  font-weight: 600;
 }
 
 .search form{
@@ -225,7 +236,7 @@ input {
 .hello-name {
   display: grid;
   gap: 4px;
-  font-weight: 1000;
+  font-weight: 600;
 }
 
 .pfp {
