@@ -12,7 +12,7 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1.2fr 5fr;
   grid-template-areas: 
     "sidebar header"
     "sidebar main";
@@ -131,3 +131,19 @@ body {
 .header {
   padding: 1.8% 3%;
 }
+
+.search form{
+  display: grid;
+  grid-template-columns: 0.1fr 10fr;
+  gap: 20px;
+}
+
+input {
+  border: none;
+  background-color: lightgrey;
+  height: 2.6em;
+  width: 60em;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
