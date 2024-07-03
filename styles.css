@@ -80,7 +80,7 @@ body {
 .subsection {
   display: grid;
   grid-template-rows: max-content;
-  gap: 12px;
+  gap: 10px;
 }
 
 #projects {
@@ -273,4 +273,8 @@ input {
 
 img {
   border-radius: 50%;
+}
+
+h2 {
+  padding-left: 10px;
 }
