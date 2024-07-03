@@ -37,7 +37,7 @@ body {
 .nav {
   display: grid;
   grid-template-columns: max-content max-content;
-  gap: 15px;
+  gap: 20px;
   font-size: 1.3rem;
   align-items: center;
   color: white;
@@ -54,16 +54,9 @@ body {
 
 #title svg {
   width: 45px;
-  padding-bottom: 5px;
-}
-
-.header {
-  background-color: white;
-  z-index: 1;
-  box-shadow: 0px 3px 5px 0px rgba(120, 120, 120, 0.6);
-  grid-area: header;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  padding-bottom: 3px;
+  border: 2px solid white;
+  background-color: #502070;
 }
 
 .main-content {
@@ -144,9 +137,13 @@ body {
 }
 
 .header {
+  grid-area: header;
   display: grid;
   grid-template-rows: 1fr 1.2fr;
   padding: 0% 4%;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 3px 5px 0px rgba(120, 120, 120, 0.6);
 }
 
 .top-header {
@@ -170,6 +167,17 @@ body {
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 20px;
+}
+
+form button {
+  border: none;
+  background-color: white;
+  align-self: center;
+}
+
+form button svg {
+  padding-top: 5px;
+  width: 26px;
 }
 
 input {
