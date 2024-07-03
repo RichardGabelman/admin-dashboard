@@ -31,15 +31,30 @@ body {
 .nav-cluster {
   display: grid;
   grid-template-rows: repeat(auto-fit, min-content);
+  gap: 5px;
 }
 
 .nav {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 15px;
   font-size: 1.3rem;
+  align-items: center;
   color: white;
 }
 
+.nav svg {
+  fill: white;
+  width: 30px;
+}
+
 #title {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+}
+
+#title svg {
+  width: 45px;
+  padding-bottom: 5px;
 }
 
 .header {
@@ -213,4 +228,3 @@ input {
   border-radius: 40px;
   font-weight: 600;
 }
-
