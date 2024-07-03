@@ -129,21 +129,40 @@ body {
 }
 
 .header {
-  padding: 1.8% 3%;
+  padding: 0% 4%;
+}
+
+.top-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.profile-buttons {
+  display: grid;
+  grid-template-columns: min-content min-content max-content;
+  gap: 10px;
+  justify-self: end;
+  align-self: center;
+  align-items: center;
+  font-size: 1.4em;
+  font-weight: 1000;
 }
 
 .search form{
   display: grid;
-  grid-template-columns: 0.1fr 10fr;
+  grid-template-columns: min-content 1fr;
   gap: 20px;
 }
 
 input {
   border: none;
   background-color: lightgrey;
-  height: 2.6em;
-  width: 60em;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+  height: 2.1em;
   border-radius: 30px;
-  padding: 5px 10px;
+  padding-left: 10px;
 }
 
